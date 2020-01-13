@@ -31,6 +31,7 @@
 #if (TARGET_OS_IOS)
 #import <UIKit/UIKit.h>
 #ifndef COUNTLY_EXCLUDE_IDFA
+#warning("IDFA ENABLED"")
 #import <AdSupport/ASIdentifierManager.h>
 #endif
 #import "WatchConnectivity/WatchConnectivity.h"
